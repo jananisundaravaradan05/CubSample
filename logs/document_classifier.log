@@ -1,0 +1,29 @@
+2026-02-17 06:45:04,469 - documentclassifier - INFO - ================================================================================
+2026-02-17 06:45:04,469 - documentclassifier - INFO - [RUN 1771310704469] NEW REQUEST RECEIVED
+2026-02-17 06:45:04,469 - documentclassifier - INFO - [RUN 1771310704469] Timestamp: 2026-02-17 06:45:04
+2026-02-17 06:45:04,469 - documentclassifier - INFO - [RUN 1771310704469] Client IP: 127.0.0.1
+2026-02-17 06:45:04,469 - documentclassifier - INFO - [RUN 1771310704469]   - Document Type: gst
+2026-02-17 06:45:04,469 - documentclassifier - INFO - [RUN 1771310704469]   - User Name: radheshyam
+2026-02-17 06:45:04,469 - documentclassifier - INFO - ================================================================================
+2026-02-17 06:45:04,470 - documentclassifier - INFO - [RUN 1771310704469] Authentication successful
+2026-02-17 06:45:04,470 - documentclassifier - INFO - [RUN 1771310704469] Input Mode: Direct File Upload
+2026-02-17 06:45:04,470 - documentclassifier - INFO - [RUN 1771310704469] .enc file detected - Starting decryption
+2026-02-17 06:45:04,496 - documentclassifier - INFO - [RUN 1771310704469] Decrypted file saved as /tmp/tmpcgzuqltr.pdf
+2026-02-17 06:45:04,496 - documentclassifier - INFO - [RUN 1771310704469] File extension: pdf
+2026-02-17 06:45:04,496 - documentclassifier - INFO - [RUN 1771310704469] Processing as PDF file
+2026-02-17 06:45:04,787 - documentclassifier - INFO - [RUN 1771310704469] Starting OWL-ViT object detection on image (1488x2105)
+2026-02-17 06:45:05,668 - documentclassifier - INFO - [RUN 1771310704469] OWL-ViT detection completed in 0.881s - Found 1 boxes, Best box: (-5, 16, 1475, 2107)
+2026-02-17 06:45:05,669 - documentclassifier - INFO - [RUN 1771310704469] Cropping completed in 0.0000s - ROI size: (2089, 1475, 3)
+2026-02-17 06:45:05,707 - documentclassifier - INFO - [RUN 1771310704469] Starting document processing
+2026-02-17 06:45:05,707 - documentclassifier - INFO - [RUN 1771310704469] Starting OCR text extraction from: /tmp/tmpcgzuqltr_page_1.jpg
+2026-02-17 06:43:35,079 - documentclassifier - INFO - [RUN 1771310704469] OCR extraction completed in 4.953s - Extracted 1056 characters
+2026-02-17 06:43:35,079 - documentclassifier - INFO - [RUN 1771310704469] Starting fuzzy document type detection with threshold=70
+2026-02-17 06:43:35,079 - documentclassifier - INFO - [RUN 1771310704469] Starting regex-based document detection
+2026-02-17 06:43:35,081 - documentclassifier - INFO - [RUN 1771310704469] Regex detection completed in 0.0020s
+2026-02-17 06:43:35,081 - documentclassifier - INFO - [RUN 1771310704469] Starting name matching for: radheshyam
+2026-02-17 06:43:35,084 - documentclassifier - INFO - [RUN 1771310704469] Name matching completed in 0.0026s - Score: 100.0, Matched: True
+2026-02-17 06:43:35,084 - documentclassifier - INFO - [RUN 1771310704469] Starting field extraction for document type: gst
+2026-02-17 06:43:35,084 - documentclassifier - INFO - [RUN 1771310704469] Field extraction completed in 0.0002s - Extracted fields: ['number']
+2026-02-17 06:43:35,084 - documentclassifier - INFO - [RUN 1771310704469] Document processing completed in 4.959s - Status: success
+2026-02-17 06:43:35,084 - documentclassifier - INFO - [RUN 1771310704469] Detected: gst | Expected: gst | Name score: 100.0
+2026-02-17 06:43:35,085 - documentclassifier - INFO - [RUN 1771310704469] Temporary file cleaned up: /tmp/tmpcgzuqltr.pdf

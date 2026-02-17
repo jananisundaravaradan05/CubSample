@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.venv/
+# Runtime data
+output/
+uploads/
+
+# OS
+.DS_Store
